@@ -1,31 +1,20 @@
 # Analisis Komparatif Platform (Web, Desktop, Mobile)
 
+## Tabel Komparatif Platform
+
 | Aspek | Web | Desktop | Mobile |
 | --- | --- | --- | --- |
-| **Bahasa Utama** | HTML, CSS, JavaScript, TypeScript, PHP | C++, C#, Java, Python, Swift | Java, Kotlin, Swift, Dart (Flutter), JavaScript (React Native) |
-| **Arsitektur** | Client-Server (Browser-Server Architecture) | Standalone / Client-Server / Monolithic | Mobile Client-Server Architecture |
-| **Cara Distribusi** | Diakses langsung melalui web browser via URL | Installer executable (`.exe`, `.msi`, `.dmg`, `.pkg`) | App Store (Google Play Store, Apple App Store, APK) |
-| **Keunggulan** | Akses instan multiplatform tanpa instalasi, update otomatis terpusat | Performa tinggi, akses penuh ke hardware/GPU lokal, bisa berjalan offline | Portabel, akses fitur sensor hp (GPS, kamera, biometrik), notifikasi push |
-| **Keterbatasan** | Sangat tergantung koneksi internet, akses hardware perangkat terbatas | Memerlukan instalasi manual, update lebih rumit, keterikatan OS | Terbatas ukuran layar, manajemen memori/baterai ketat, fragmentasi OS |
-| **Contoh Aplikasi** | Figma Web, Canva, Google Docs | Visual Studio Code, NetBeans IDE, Adobe Photoshop | WhatsApp, Gojek, Instagram |
-
-## Referensi
-1. **Mozilla Developer Network (MDN).** *Web architecture and core web technologies guide*. https://developer.mozilla.org/
-2. **Android Developers.** *Guide to app architecture & mobile engineering*. https://developer.android.com/topic/architecture
-3. **Microsoft Learn.** *Desktop application development documentation & architectural patterns*. https://learn.microsoft.com/
-
-
-
+| **Bahasa Utama** | HTML, CSS, JavaScript, TypeScript (Front-end); Python, Node.js, PHP, Java (Back-end) | C++, C#, Java (Swing/JavaFX), Python (PyQt), JavaScript/TypeScript (Electron) | Kotlin, Java (Android Native); Swift (iOS Native); Dart (Flutter); JS/TS (React Native) |
+| **Arsitektur** | Client-Server, Single Page Application (SPA), Multi-Page Application (MPA) | Monolithic, Standalone Architecture, Client-Server Desktop | Mobile Client-Server, Microservices Architecture via REST API / GraphQL |
+| **Cara Distribusi** | Hosting di Web Server, diakses pengguna melalui Browser via URL/Domain | Installer Executable (`.exe`, `.msi` di Windows; `.dmg` di macOS; `.deb` di Linux) | Official App Store (Google Play Store, Apple App Store) atau *sideloading* (`.apk`, `.ipa`) |
+| **Keunggulan** | Multiplatform secara instan tanpa instalasi, pembaruan aplikasi terpusat secara real-time, hemat penyimpanan lokal | Performa komputasi sangat tinggi, akses penuh ke hardware (CPU, GPU, Storage), dapat berjalan penuh secara *offline* | Portabilitas tinggi, memanfaatkan sensor fisik perangkat (GPS, Kamera, Biometrik, Gyroscope), fitur *Push Notification* |
+| **Keterbatasan** | Ketergantungan penuh pada koneksi internet dan browser, akses ke komponen hardware lokal dibatasi oleh browser | Proses instalasi dan *update* dilakukan per perangkat, perbedaan kompilasi untuk tiap sistem operasi (Windows/Mac/Linux) | Resource perangkat terbatas (kapasitas baterai & RAM), batasan ukuran layar, masalah fragmentasi perangkat |
+| **Contoh Aplikasi** | Figma Web, Google Docs, Canva, Spotify Web | Visual Studio Code, NetBeans IDE, Adobe Photoshop, AutoCAD | WhatsApp, Instagram, Gojek, Tokopedia |
 
 ---
 
-## Bagian 3: Refleksi
-
-### 1. Platform yang Paling Menarik untuk Dipelajari
-Dari ketiga platform yang dianalisis, platform **Web** merupakan yang paling menarik bagi saya. Keunggulan utama platform web terletak pada kemudahan aksesibilitasnya yang tidak memerlukan proses instalasi oleh pengguna akhir, serta kemudahan dalam melakukan pembaruan aplikasi secara terpusat. Selain itu, perkembangan ekosistem JavaScript/TypeScript dan *framework* modern saat ini memungkinkan pembuatan antarmuka web yang sangat interaktif dan responsif di berbagai ukuran perangkat.
-
-### 2. Tantangan Terbesar Saat Setup Environment
-Tantangan terbesar yang saya hadapi saat proses *setup environment* adalah melakukan navigasi direktori melalui terminal/CMD pada sistem operasi Windows, terutama ketika direktori kerja berada di dalam folder *cloud storage* (OneDrive) dan memiliki spasi pada nama foldernya. Hal ini sempat menyebabkan perintah `cd` tidak menemukan *path* direktori yang dituju jika tidak ditangani dengan tanda petik ganda (`" "`).
-
-### 3. Rencana Mengatasi Tantangan
-Untuk mengatasi tantangan tersebut, saya belajar menggunakan kutip ganda pada setiap *path* direktori yang memiliki spasi, atau menggunakan trik *drag and drop* folder langsung ke jendela terminal. Ke depannya, saya juga berencana untuk memperdalam pemahaman mengenai perintah-perintah dasar CLI (*Command Line Interface*) serta konfigurasi *environment variables* agar proses pengembangan perangkat lunak dapat berjalan lebih efisien.
+## Daftar Referensi
+1. **Pressman, R. S., & Maxim, B. R.** (2019). *Software Engineering: A Practitioner's Approach* (9th ed.). McGraw-Hill Education.
+2. **Oracle Documentation.** *Java Desktop Application Architecture & Swing/JavaFX Guide*. Diakses dari https://docs.oracle.com/
+3. **Google Developers.** *Guide to Android Application Architecture*. Diakses dari https://developer.android.com/topic/architecture
+4. **MDN Web Docs.** *Web Architecture and Core Web Technologies*. Diakses dari https://developer.mozilla.org/
