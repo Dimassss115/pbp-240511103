@@ -34,11 +34,11 @@ Pemilihan platform pengembangan aplikasi harus disesuaikan dengan **kebutuhan pe
 ---
 ## REFLEKSI
 
-1. Platform yang Paling Menarik untuk Dipelajari
+### 1. Platform yang Paling Menarik untuk Dipelajari
 Dari ketiga platform yang dianalisis, platform Web adalah yang paling menarik bagi saya. Platform web memiliki keunggulan utama dalam hal fleksibilitas cross-platform tanpa mewajibkan pengguna melakukan instalasi aplikasi secara manual. Selain itu, perkembangan ekosistem JavaScript/TypeScript dan framework modern saat ini memungkinkan pengembangan antarmuka yang sangat interaktif, responsif, serta dapat diakses secara instan dari perangkat apa pun melalui browser.
 
-2. Tantangan Terbesar Saat Setup Environment
+### 2. Tantangan Terbesar Saat Setup Environment
 Tantangan terbesar yang saya hadapi selama proses setup environment adalah melakukan navigasi direktori melalui terminal/CMD pada sistem Windows. Terutama ketika lokasi folder berada di dalam penyimpanan cloud (OneDrive) dan memiliki spasi pada nama foldernya, perintah cd sempat gagal menemukan path jika tidak dibungkus tanda petik ganda (" "). Selain itu, proses instalasi Android Studio memerlukan kapasitas penyimpanan serta kuota yang cukup besar untuk mengunduh komponen SDK pendukung.
 
-3. Rencana Mengatasi Tantangan
+### 3. Rencana Mengatasi Tantangan
 Untuk mengatasi tantangan navigasi terminal, saya membiasakan diri menggunakan tanda petik ganda pada path ber-spasi atau memanfaatkan trik drag-and-drop folder langsung ke jendela terminal. Ke depannya, saya berencana memperdalam pemahaman perintah dasar CLI (Command Line Interface) dan mengelola kapasitas penyimpanan laptop secara berkala agar pengoperasian emulator serta SDK Android Studio dapat berjalan lancar.
